@@ -1,0 +1,384 @@
+{
+ "largeur": 1440,
+ "entree": [
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "1",
+   "duree": 240,
+   "fin": 300,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "2",
+   "duree": 240,
+   "fin": 334,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "3",
+   "duree": 240,
+   "fin": 368,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "4",
+   "duree": 240,
+   "fin": 402,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "5",
+   "duree": 240,
+   "fin": 436,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "6",
+   "duree": 240,
+   "fin": 470,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "7",
+   "duree": 240,
+   "fin": 504,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "8",
+   "duree": 240,
+   "fin": 538,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "9",
+   "duree": 240,
+   "fin": 572,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "10",
+   "duree": 240,
+   "fin": 606,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "11",
+   "duree": 240,
+   "fin": 640,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "12",
+   "duree": 240,
+   "fin": 674,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "13",
+   "duree": 240,
+   "fin": 708,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "14",
+   "duree": 240,
+   "fin": 742,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "15",
+   "duree": 240,
+   "fin": 776,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "16",
+   "duree": 240,
+   "fin": 810,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "17",
+   "duree": 240,
+   "fin": 844,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "18",
+   "duree": 240,
+   "fin": 878,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "19",
+   "duree": 240,
+   "fin": 912,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "20",
+   "duree": 240,
+   "fin": 946,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "21",
+   "duree": 240,
+   "fin": 980,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "22",
+   "duree": 240,
+   "fin": 1014,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "23",
+   "duree": 240,
+   "fin": 1048,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "24",
+   "duree": 240,
+   "fin": 1082,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "25",
+   "duree": 240,
+   "fin": 1116,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "posa",
+   "cible": "g",
+   "id": "26",
+   "duree": 240,
+   "fin": 1150,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  }
+ ],
+ "duree": 1150,
+ "defile": 0,
+ "revelations": [],
+ "cartes": [],
+ "script": false,
+ "invisibles": [],
+ "reduit": [],
+ "action_ms": 0,
+ "survol": [
+  {
+   "cible": "action",
+   "change": true
+  }
+ ],
+ "planche": "parcours-final/mouvement-1440.png"
+}

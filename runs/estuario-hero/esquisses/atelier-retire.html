@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt" data-variante="retire">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Estuário — Festival Internacional de Arquitetura e Design, Lisboa</title>
+<meta name="description" content="Estuário, 4.ª edição: Terra Firme. 17 de abril a 16 de maio de 2027, em Lisboa.">
+<!--
+  Festival fictif : nom, dates, thème, chiffres et liens sont des EXEMPLES (contenu illustratif).
+  Le sol est une calçada portuguesa codée (aucune image externe) ; motif inspiré du Mar Largo du Rossio.
+  Trace du run : ../TRACE.md
+-->
+<link rel="stylesheet" href="../site/fonts/familjen.css">
+<style>
+:root{
+  --calcario:#F2F1EE;   /* calcaire scié : dalles et lancil */
+  --basalto:#17181A;    /* basalte : texte et action */
+  --junta:#A9A59D;      /* joint de sable */
+  --cinza:#55544F;      /* texte secondaire sur calcaire (7,0:1) */
+  --g:64px;             /* gouttière */
+  --relevo:0 -1px 0 rgba(255,255,255,.75) inset,0 2px 0 rgba(0,0,0,.20),0 12px 18px -10px rgba(0,0,0,.5); /* dalle posée, lumière du haut */
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--junta);color:var(--basalto);font-family:'Familjen Grotesk',system-ui,sans-serif;font-size:16px;line-height:1.4}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--basalto);outline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+.hero{position:relative;min-height:max(680px,100svh);display:flex;flex-direction:column;overflow:hidden;isolation:isolate}
+.chao{position:absolute;inset:0;z-index:-1;background:var(--junta)}
+.chao svg{display:block;width:100%;height:100%}
+/* lumière de Lisbonne : une seule nappe, douce, venue du fleuve */
+.chao:after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(112deg,rgba(255,255,255,.16),rgba(255,255,255,0) 38%,rgba(0,0,0,0) 62%,rgba(0,0,0,.10));mix-blend-mode:soft-light}
+
+/* dalles de calcaire scié : barre de navigation et lancil */
+.laje{background-color:var(--calcario);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' seed='4'/%3E%3CfeColorMatrix values='0 0 0 0 .2 0 0 0 0 .19 0 0 0 0 .17 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+.nav{position:relative;display:flex;align-items:center;gap:36px;height:72px;padding:0 var(--g);
+  box-shadow:var(--relevo)}
+.logo{font-weight:700;font-size:20px;letter-spacing:.005em;text-decoration:none}
+.menu{display:flex;gap:28px;margin-left:28px;list-style:none}
+.menu a,.lang a{text-decoration:none;font-size:16px}
+.menu a:hover,.lang a:hover{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1.5px}
+.nav .fim{margin-left:auto;display:flex;align-items:center;gap:28px}
+.lang{font-size:16px;color:var(--cinza)}.lang [aria-current]{color:var(--basalto);font-weight:600}
+.burger{display:none}
+
+.nome{flex:none;margin:clamp(24px,5.2svh,52px) var(--g) 0;
+  font-weight:700;letter-spacing:.01em;line-height:1;white-space:nowrap;
+  font-size:min(calc((100vw - 2 * var(--g)) / 4.53),36svh)}
+.nome span{display:inline}
+/* une fois le sol posé, le titre n'est plus peint : ce sont les pierres qui l'écrivent */
+.paved .nome{color:transparent}
+
+.lancil{flex:none;position:relative;margin-top:clamp(22px,4.2svh,40px);
+  display:grid;grid-template-columns:1.15fr 1fr 1fr auto;align-items:stretch;
+  box-shadow:var(--relevo)}
+.lancil > *{padding:26px 32px;position:relative}
+.lancil > :first-child{padding-left:var(--g)}
+.lancil > :last-child{padding-right:var(--g)}
+/* juntas : un lancil se pose en blocs ; les joints tombent entre les colonnes */
+.lancil > * + *:before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--junta);box-shadow:1px 0 0 rgba(255,255,255,.6)}
+.o-que{font-size:20px;font-weight:600;line-height:1.2;letter-spacing:-.005em}
+.o-que small{display:block;margin-top:8px;font-size:15px;font-weight:400;color:var(--cinza)}
+.quando{font-size:34px;font-weight:700;letter-spacing:-.015em;line-height:1.02;white-space:nowrap}
+.quando small{white-space:normal}
+.quando small{display:block;margin-top:10px;font-size:15px;font-weight:400;letter-spacing:0;color:var(--cinza)}
+.tema{font-size:20px;font-weight:600;line-height:1.2}
+.tema small{display:block;margin-top:8px;font-size:15px;font-weight:400;color:var(--cinza)}
+.acoes{display:flex;align-items:center;gap:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 26px;font-size:17px;font-weight:600;text-decoration:none;white-space:nowrap;border:2px solid var(--basalto);transition:background-color .15s,color .15s}
+.btn.p{background:var(--basalto);color:var(--calcario)}
+.btn.p:hover{background:transparent;color:var(--basalto)}
+.btn.s{background:transparent}
+.btn.s:hover{background:var(--basalto);color:var(--calcario)}
+.btn.c{min-height:42px;padding:0 16px;font-size:16px}
+
+.mar{flex:1 1 auto;min-height:120px}
+.legenda{position:absolute;right:var(--g);bottom:20px;font-size:13px;color:var(--basalto);background:var(--calcario);padding:5px 10px 6px}
+
+/* ---------- téléphone : le nom se pose sur deux rangs ---------- */
+@media (max-width:899px){
+  :root{--g:16px}
+  .hero{min-height:max(640px,100svh)}
+  .nav{height:60px;gap:12px}
+  .menu,.lang{display:none}
+  .nav .fim{gap:8px}
+  .burger{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:0 4px;background:none;border:0;font:inherit;font-size:16px;color:inherit}
+  .burger i{display:block;width:18px;height:2px;background:currentColor;box-shadow:0 -6px 0 currentColor,0 6px 0 currentColor}
+  .nome{margin-top:26px;font-size:min(calc((100vw - 2 * var(--g)) / 2.34),26svh);line-height:.98}
+  .nome span{display:block}
+  .lancil{grid-template-columns:1.18fr 1fr;margin-top:20px}
+  .lancil > *{padding:16px var(--g)}
+  .lancil > :first-child{grid-column:1 / -1;padding-bottom:0}
+  .lancil > :first-child + *:before{display:none}
+  .lancil > .tema{padding-left:16px}
+  .o-que{font-size:16px}.o-que small{display:none}
+  .quando{font-size:23px}.quando small{font-size:14px;margin-top:6px}
+  .tema{font-size:17px}.tema small{font-size:14px;margin-top:6px}
+  .lancil > .acoes{grid-column:1 / -1;padding-top:4px;padding-bottom:16px}
+  .lancil > .acoes:before{display:none}
+  .acoes .btn{flex:1;padding:0 12px}
+  .mar{min-height:90px}
+  .legenda{right:var(--g);bottom:12px;font-size:12px}
+}
+@media (max-width:899px) and (max-height:700px){.nome{margin-top:16px}}
+@media (forced-colors:active){.paved .nome{color:CanvasText}.chao{display:none}.btn{border-color:ButtonText}}
+.menu-m{display:none}
+@media (max-width:899px){.menu-m:not([hidden]){display:block;position:absolute;z-index:3;top:60px;left:0;right:0;padding:8px var(--g) 20px;box-shadow:var(--relevo)}
+.menu-m ul{list-style:none}.menu-m li a{display:flex;align-items:center;min-height:48px;font-size:20px;font-weight:600;text-decoration:none;border-bottom:1px solid #d6d3cc}
+.menu-m .lang{display:block;margin-top:16px}.menu-m .lang a{display:inline-block;min-height:44px;line-height:44px;padding-right:6px}}
+</style>
+</head>
+<body>
+<header class="hero" id="hero">
+  <div class="chao" id="chao" aria-hidden="true"></div>
+
+  <nav class="nav laje" aria-label="Principal">
+    <a class="logo" href="#">Estuário</a>
+    <ul class="menu">
+      <li><a href="#programa">Programa</a></li>
+      <li><a href="#">Exposições</a></li>
+      <li><a href="#">Lugares</a></li>
+      <li><a href="#">Visitar</a></li>
+    </ul>
+    <div class="fim">
+      <span class="lang"><a href="#" aria-current="true" lang="pt">PT</a> / <a href="#" lang="en" hreflang="en">EN</a></span>
+      <a class="btn s c" href="#bilhetes">Bilhetes</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="menu-m"><i></i>Menu</button>
+    </div>
+  </nav>
+  <div class="menu-m laje" id="menu-m" hidden>
+    <ul><li><a href="#programa">Programa</a></li><li><a href="#">Exposições</a></li><li><a href="#">Lugares</a></li><li><a href="#">Visitar</a></li></ul>
+    <span class="lang"><a href="#" aria-current="true" lang="pt">PT</a> / <a href="#" lang="en" hreflang="en">EN</a></span>
+  </div>
+
+  <h1 class="nome" id="nome"><span>ESTU</span><span>ÁRIO</span><span class="sr"> — Festival Internacional de Arquitetura e Design, Lisboa</span></h1>
+
+  <div class="lancil laje" id="lancil">
+    <p class="o-que">Festival Internacional de Arquitetura e Design<small>4.ª edição, em 38 lugares da cidade</small></p>
+    <p class="quando"><time datetime="2027-04-17">17 Abr</time> — <time datetime="2027-05-16">16 Mai</time><small>2027, Lisboa</small></p>
+    <p class="tema">Terra Firme<small lang="en">Building on shifting ground</small></p>
+    <p class="acoes"><a class="btn p" id="cta" href="#bilhetes">Passe do festival</a><a class="btn s" href="#programa">Ver programa</a></p>
+  </div>
+
+  <div class="mar" id="mar"></div>
+  <p class="legenda">Chão desenhado a partir do Mar Largo, Rossio</p>
+</header>
+
+<script>
+(function(){var b=document.querySelector('.burger'),m=document.getElementById('menu-m');
+  function set(o){b.setAttribute('aria-expanded',o);m.hidden=!o;b.lastChild.textContent=o?'Fechar':'Menu';}
+  b.addEventListener('click',function(){set(m.hidden);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!m.hidden){set(false);b.focus();}});
+  window.matchMedia('(min-width:900px)').addEventListener('change',function(e){if(e.matches)set(false);});})();
+</script>
+<script>
+/* Calçada portuguesa — pose des pierres sous la mise en page.
+   Rangs qui suivent la vague (Mar Largo) ; lettres découpées dans les pierres au contour exact. */
+(function(){
+  var hero=document.getElementById('hero'), chao=document.getElementById('chao');
+  var nome=document.getElementById('nome'), mar=document.getElementById('mar');
+  var NS='http://www.w3.org/2000/svg';
+  var WHITE=['#EEEDE9','#E7E6E1','#F3F2EF','#E0DED8','#E9E8E4'];
+  var BLACK=['#1A1B1D','#222325','#2A2A2C','#151617','#1F2022'];
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var first=true;
+
+  function rng(seed){return function(){seed|=0;seed=seed+0x6D2B79F5|0;var t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+  function f(n){return Math.round(n*2)/2;}
+
+  function pave(){
+    var W=hero.clientWidth, H=hero.clientHeight, mob=W<900;
+    var s=mob?10.5:Math.max(14,Math.min(19,W/85));          // taille d'un cube
+    var hr=hero.getBoundingClientRect();
+    var top=mar.getBoundingClientRect().top-hr.top;          // la mer commence sous le lancil
+    var A=s*2.1, wl=s*(mob?26:25), band=4, ph=0.6;
+    var r0=Math.ceil((top+s*0.6)/s), rw=Math.floor((top+s/2-A)/s); // rw : premier rang en vague, caché sous le lancil
+    var V=document.documentElement.getAttribute('data-variante')||'';
+    if(V==='intensifie'){var nb=hero.querySelector('.nav').getBoundingClientRect().bottom-hr.top; rw=-3; r0=Math.floor(nb/s);}
+    var R=rng(11), T=rng(3);
+    var whites=WHITE.map(function(){return[];}), blacks=BLACK.map(function(){return[];});
+    var rowsW={};                                            // pierres blanches par rang (pour le lettrage)
+    for(var i=-3;i<H/s+4;i++){
+      var y0=i*s, a=(i<rw)?0:A;
+      var black=V!=='retire'&&(i>=r0)&&(Math.floor((i-r0)/band)%2===1);
+      var x=-R()*s;
+      while(x<W+s){
+        var w=s*(0.68+R()*0.64), x1=x+w;
+        var yc=function(xx){return y0+a*Math.sin(2*Math.PI*xx/wl+ph);};
+        var jj=function(){return (R()*2-1)*s*0.09;};
+        var p=[[x+jj(),yc(x)-s/2+jj()],[x1+jj(),yc(x1)-s/2+jj()],[x1+jj(),yc(x1)+s/2+jj()],[x+jj(),yc(x)+s/2+jj()]];
+        var polys=[p];
+        if(R()<0.16&&w>s*0.9){var xm=(x+x1)/2+jj();
+          var t1=[xm,yc(xm)-s/2+jj()], b1=[xm,yc(xm)+s/2+jj()];
+          polys=[[p[0],t1,b1,p[3]],[t1,p[1],p[2],b1]];}
+        for(var k=0;k<polys.length;k++){
+          var q=polys[k], cx=0, cy=0; for(var m=0;m<4;m++){cx+=q[m][0];cy+=q[m][1];} cx/=4; cy/=4;
+          var d='M'; for(m=0;m<4;m++){d+=(m?'L':'')+f(cx+(q[m][0]-cx)*0.86)+','+f(cy+(q[m][1]-cy)*0.86);} d+='Z';
+          var c=Math.floor(T()*5);
+          if(black){blacks[c].push(d);}else{whites[c].push(d);}
+          (rowsW[i]=rowsW[i]||[]).push([c,d,black]);
+        }
+        x=x1;
+      }
+    }
+    var svg='<svg viewBox="0 0 '+W+' '+H+'" width="'+W+'" height="'+H+'" xmlns="'+NS+'"><defs>';
+    // lettrage : la position et la taille sont lues sur le vrai titre
+    var spans=nome.querySelectorAll('span:not(.sr)'), cs=getComputedStyle(nome), fs=parseFloat(cs.fontSize);
+    var ctx=document.createElement('canvas').getContext('2d'); ctx.font='700 '+fs+'px "Familjen Grotesk"';
+    var mt=ctx.measureText('ESTUÁRIO'), asc=mt.fontBoundingBoxAscent, des=mt.fontBoundingBoxDescent;
+    var txt='', lt=1e9, lb=-1e9;
+    var lines=[];
+    for(var n=0;n<spans.length;n++){
+      var rc=spans[n].getClientRects(); if(!rc.length) continue;
+      var r=rc[0], lh=r.height, base=r.top-hr.top+(lh-(asc+des))/2+asc;
+      lines.push({x:r.left-hr.left,base:base,w:r.width,t:spans[n].textContent});
+    }
+    if(lines.length===2&&Math.abs(lines[0].base-lines[1].base)<2){ // bureau : un seul rang
+      lines=[{x:lines[0].x,base:lines[0].base,w:lines[1].x+lines[1].w-lines[0].x,t:lines[0].t+lines[1].t}];
+    }
+    lines.forEach(function(L){
+      txt+='<text x="'+f(L.x)+'" y="'+f(L.base)+'" font-family="Familjen Grotesk" font-weight="700" font-size="'+f(fs)+'" letter-spacing="'+(fs*0.01)+'" textLength="'+f(L.w-fs*0.01)+'" lengthAdjust="spacing">'+L.t+'</text>';
+      lt=Math.min(lt,L.base-fs*0.9); lb=Math.max(lb,L.base+fs*0.05);
+    });
+    svg+='<clipPath id="lt">'+txt+'</clipPath>';
+    whites.forEach(function(ds,c){svg+='<path id="w'+c+'" d="'+ds.join('')+'"/>';});
+    svg+='</defs><rect width="'+W+'" height="'+H+'" fill="#A9A59D"/><g stroke-width="2.2" stroke-linejoin="round">';
+    WHITE.forEach(function(col,c){svg+='<use href="#w'+c+'" fill="'+col+'" stroke="'+col+'"/>';});
+    BLACK.forEach(function(col,c){if(blacks[c].length)svg+='<path fill="'+col+'" stroke="'+col+'" d="'+blacks[c].join('')+'"/>';});
+    // les rangs du lettrage, regroupés pour être posés un par un, du bas vers le haut
+    svg+='<g clip-path="url(#lt)">';
+    var rows=Object.keys(rowsW).map(Number).filter(function(i){return i*s>lt-s&&i*s<lb+s;}).sort(function(a,b){return b-a;});
+    rows.forEach(function(i,k){
+      var by=BLACK.map(function(){return[];}), bw=WHITE.map(function(){return[];});
+      rowsW[i].forEach(function(e){(e[2]?bw:by)[e[0]].push(e[1]);});
+      svg+='<g class="rang" style="--k:'+k+'">';
+      by.forEach(function(ds,c){if(ds.length)svg+='<path fill="'+BLACK[c]+'" stroke="'+BLACK[c]+'" d="'+ds.join('')+'"/>';});
+      bw.forEach(function(ds,c){if(ds.length)svg+='<path fill="'+WHITE[c]+'" stroke="'+WHITE[c]+'" d="'+ds.join('')+'"/>';});
+      svg+='</g>';
+    });
+    svg+='</g></g></svg>';
+    chao.innerHTML=svg;
+    hero.classList.add('paved');
+    if(first&&!reduce){chao.classList.add('posar');setTimeout(function(){chao.classList.remove('posar');},rows.length*34+500);}
+    first=false;
+  }
+  var st=document.createElement('style');
+  st.textContent='.posar .rang{opacity:0;animation:posa .26s cubic-bezier(.2,.7,.2,1) forwards;animation-delay:calc(var(--k)*34ms + 80ms)}@keyframes posa{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}';
+  document.head.appendChild(st);
+  var go=function(){pave();var t;var lastW=hero.clientWidth;window.addEventListener('resize',function(){clearTimeout(t);t=setTimeout(function(){if(Math.abs(hero.clientWidth-lastW)>1||true){lastW=hero.clientWidth;pave();}},120);});};
+  if(document.fonts&&document.fonts.load){Promise.all([document.fonts.load('700 100px "Familjen Grotesk"','ESTUÁRIO'),document.fonts.ready]).then(go,go);}else{go();}
+})();
+</script>
+</body>
+</html>

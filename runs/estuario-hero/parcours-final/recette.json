@@ -1,0 +1,287 @@
+{
+  "provenance": {
+    "artifact_locator": "site/index.html",
+    "artifact_version": "6ac373d03e1a",
+    "method": "AUTOMATED",
+    "observed_at": "2026-11-05T15:46:01Z",
+    "scope": "état initial, largeurs 1440,390 px",
+    "external_requests_blocked": 0,
+    "settings": {
+      "proof": "#nome",
+      "tab_stops": 60,
+      "allow_external": false,
+      "wait_ms": 1500,
+      "in_frame": [
+        "#cta"
+      ]
+    },
+    "browser": {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "executable": "playwright-managed"
+    }
+  },
+  "checks": [
+    {
+      "check": "Débordement horizontal",
+      "status": "PASS",
+      "detail": "aucun à 1440, 390 px",
+      "route": "SAVOIR/CONTEXT ; BIBLIOTHEQUE/SEQUENCE"
+    },
+    {
+      "check": "Défilement horizontal interne",
+      "status": "PASS",
+      "detail": "aucun",
+      "route": "SAVOIR/CONTEXT"
+    },
+    {
+      "check": "Erreurs JavaScript au chargement",
+      "status": "PASS",
+      "detail": "aucune",
+      "route": "SAVOIR/TECH"
+    },
+    {
+      "check": "Chevauchement et troncature de texte",
+      "status": "PASS-WITH-RESERVATION",
+      "detail": "texte décoratif superposé, à juger : 1440 px : « ESTUÁRIO » et « ESTUÁRIO », 1440 px : « ESTUÁRIO » et « ESTUÁRIO », 1440 px : « ESTUÁRIO » et « ESTU », 390 px : « ESTU » et « ESTU », 390 px : « ESTU » et « ESTU », 390 px : « ESTU » et « ESTU » ; texte SVG compris, calques fixes ou collants exclus",
+      "route": "SAVOIR/TYPE ; SAVOIR/STATE"
+    },
+    {
+      "check": "Objet de l’état clé dans son cadre (--in-frame)",
+      "status": "PASS",
+      "detail": "tous les éléments ont leur centre dans le cadre, à l’état observé",
+      "route": "ACTION/VISUAL_PROOF"
+    },
+    {
+      "check": "Contraste du texte sur fond uni",
+      "status": "RETURN",
+      "detail": "span #a9a59d sur #a9a59d = 1:1 (seuil 3:1, 297.303 px, « ESTU ») ; span #a9a59d sur #a9a59d = 1:1 (seuil 3:1, 162.432 px, « ESTU ») ; 1440 px : 5 texte(s) évalué(s), 34 candidat(s), 8 exclu(s) ; 390 px : 5 texte(s) évalué(s), 37 candidat(s), 15 exclu(s) ; 1440 px : candidat(s) restant hors évaluation ; 390 px : candidat(s) restant hors évaluation ; texte SVG non évalué (text) : relever fill/stroke, opacités et fond réel, puis calculer le contraste ; méthode dans ACTION/RECETTE-RENDU",
+      "route": "SAVOIR/CRAFT/CFT-05 ; SAVOIR/CRAFT/CFT-03"
+    },
+    {
+      "check": "Contraste du texte sur fond en image ou en dégradé (capture)",
+      "status": "PASS",
+      "detail": "aucun texte sous le seuil au pire décile du fond ; 29 mesure(s) sur capture",
+      "route": "SAVOIR/CRAFT/CFT-05 ; SAVOIR/CRAFT/CFT-03"
+    },
+    {
+      "check": "Nom accessible des contrôles (candidats DOM)",
+      "status": "PASS-WITH-RESERVATION",
+      "detail": "10 contrôle(s) DOM inspecté(s) ; nom accessible calculé non vérifié ; candidat hors couverture : button.burger",
+      "route": "SAVOIR/CONTEXT"
+    },
+    {
+      "check": "Taille des cibles (WCAG 2.2, 2.5.8)",
+      "status": "PASS",
+      "detail": "toutes les cibles hors texte courant satisfont la taille ou l'espacement ; 4 petite(s) cible(s) admise(s) par l'espacement",
+      "route": "SAVOIR/CONTEXT"
+    },
+    {
+      "check": "Structure du document (alt, lang, titre)",
+      "status": "PASS",
+      "detail": "alt, lang et titre présents",
+      "route": "SAVOIR/CONTEXT"
+    },
+    {
+      "check": "Images chargées",
+      "status": "PASS",
+      "detail": "aucune image visible illisible",
+      "route": "SAVOIR/SOURCE ; DIRECTION/ASSET-ROUTE"
+    },
+    {
+      "check": "Parcours clavier : arrêts et indicateur de focus",
+      "status": "PASS",
+      "detail": "10 arrêt(s) à 1440 px ; 1440 px : page, fin=end, 10 candidat(s) ; 5 arrêt(s) à 390 px ; 390 px : page, fin=end, 5 candidat(s) ; style observé, visibilité du focus à vérifier ; contraste : contrôle suivant",
+      "route": "SAVOIR/CONTEXT ; SAVOIR/STATE"
+    },
+    {
+      "check": "Contraste de l’indicateur de focus",
+      "status": "PASS",
+      "detail": "0 arrêt(s) mesuré(s) ou à contour du navigateur sans défaut ; non mesuré (changement de fond, couleur, bordure, ombre floue ou fond en image) : #cta, a, a.btn, a.logo, button.burger",
+      "route": "SAVOIR/STATE ; SAVOIR/CRAFT/CFT-05"
+    },
+    {
+      "check": "Mouvement réduit respecté",
+      "status": "PASS",
+      "detail": "aucune animation démarrée",
+      "route": "SAVOIR/CONTEXT"
+    },
+    {
+      "check": "Objet de preuve au premier écran (#nome)",
+      "status": "PASS-WITH-RESERVATION",
+      "detail": "1440 px : intersection verticale 297.296875 px sur 297.296875, horizontale 1331.625 px sur 1331.625; limites : découpe par un ancêtre non évaluée; 390 px : intersection verticale 318.375 px sur 318.375, horizontale 362.234375 px sur 362.234375; limites : découpe par un ancêtre non évaluée ; rectangle et CSS observés, pixels et occlusion non vérifiés ; à juger : recomposition voulue ou défaut",
+      "route": "DIRECTION/FIRST-OBJECT ; SAVOIR/CRAFT/CFT-04a"
+    }
+  ],
+  "releves": {
+    "h1_visibles": 1
+  },
+  "keyboard_coverage": {
+    "1440": {
+      "expected": [
+        {
+          "key": "control-0",
+          "id": "a"
+        },
+        {
+          "key": "control-1",
+          "id": "a"
+        },
+        {
+          "key": "control-2",
+          "id": "a"
+        },
+        {
+          "key": "control-3",
+          "id": "a"
+        },
+        {
+          "key": "control-4",
+          "id": "a"
+        },
+        {
+          "key": "control-5",
+          "id": "a"
+        },
+        {
+          "key": "control-6",
+          "id": "a"
+        },
+        {
+          "key": "control-7",
+          "id": "a"
+        },
+        {
+          "key": "control-8",
+          "id": "#cta"
+        },
+        {
+          "key": "control-9",
+          "id": "a"
+        }
+      ],
+      "excluded": [
+        "button",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "scope": "page",
+      "reason": "end",
+      "tab_limit": 60,
+      "visited": [
+        "control-0",
+        "control-1",
+        "control-2",
+        "control-3",
+        "control-4",
+        "control-5",
+        "control-6",
+        "control-7",
+        "control-8",
+        "control-9"
+      ],
+      "unreached": [],
+      "unexpected": [],
+      "observed_stops": 10
+    },
+    "390": {
+      "expected": [
+        {
+          "key": "control-0",
+          "id": "a"
+        },
+        {
+          "key": "control-1",
+          "id": "a"
+        },
+        {
+          "key": "control-2",
+          "id": "button"
+        },
+        {
+          "key": "control-3",
+          "id": "#cta"
+        },
+        {
+          "key": "control-4",
+          "id": "a"
+        }
+      ],
+      "excluded": [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      "scope": "page",
+      "reason": "end",
+      "tab_limit": 60,
+      "visited": [
+        "control-0",
+        "control-1",
+        "control-2",
+        "control-3",
+        "control-4"
+      ],
+      "unreached": [],
+      "unexpected": [],
+      "observed_stops": 5
+    }
+  },
+  "contrast_coverage": {
+    "1440": {
+      "method": "dom-text-bounded",
+      "candidates": 34,
+      "evaluated": 5,
+      "excluded": 8,
+      "unmeasured": []
+    },
+    "390": {
+      "method": "dom-text-bounded",
+      "candidates": 37,
+      "evaluated": 5,
+      "excluded": 15,
+      "unmeasured": []
+    }
+  },
+  "proof_observations": {
+    "1440": {
+      "found": true,
+      "method": "css-rectangle-bounded",
+      "w": 1331.625,
+      "h": 297.296875,
+      "hidden": false,
+      "opacity": 1,
+      "intersectionWidth": 1331.625,
+      "visible": 297.296875,
+      "limits": [
+        "découpe par un ancêtre non évaluée"
+      ]
+    },
+    "390": {
+      "found": true,
+      "method": "css-rectangle-bounded",
+      "w": 362.234375,
+      "h": 318.375,
+      "hidden": false,
+      "opacity": 1,
+      "intersectionWidth": 362.234375,
+      "visible": 318.375,
+      "limits": [
+        "découpe par un ancêtre non évaluée"
+      ]
+    }
+  }
+}

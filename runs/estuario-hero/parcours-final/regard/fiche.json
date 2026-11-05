@@ -1,0 +1,844 @@
+{
+ "page": "index.html",
+ "attention_modele": "classique",
+ "largeurs": {
+  "1440": {
+   "zones": [
+    {
+     "part": 0.12582085399804246,
+     "boite": [
+      0,
+      628,
+      1440,
+      122
+     ],
+     "centre": [
+      738,
+      688
+     ],
+     "sous": {
+      "element": "div.mar",
+      "texte": ""
+     }
+    },
+    {
+     "part": 0.08562147959888577,
+     "boite": [
+      0,
+      768,
+      1258,
+      114
+     ],
+     "centre": [
+      586,
+      821
+     ],
+     "sous": {
+      "element": "div.mar",
+      "texte": ""
+     }
+    },
+    {
+     "part": 0.020408620467468032,
+     "boite": [
+      1335,
+      774,
+      105,
+      126
+     ],
+     "centre": [
+      1401,
+      842
+     ],
+     "sous": {
+      "element": "div.mar",
+      "texte": ""
+     }
+    },
+    {
+     "part": 0.010401411902596846,
+     "boite": [
+      1035,
+      494,
+      153,
+      45
+     ],
+     "centre": [
+      1108,
+      515
+     ],
+     "sous": {
+      "element": "a.btn.p",
+      "texte": "Passe do festival"
+     }
+    }
+   ],
+   "foyer": "#nome",
+   "foyer_mesure": {
+    "part": 0.24421355318246818,
+    "aire": 0.30627777777777776,
+    "levier": 0.7973596875175816
+   },
+   "contraste": [
+    {
+     "texte": "ESTUÁRIO",
+     "chemin": "svg > g > g > text",
+     "taille": 297.5,
+     "statut": "non évalué",
+     "raison": "texte rempli par un dégradé, une image ou sans remplissage"
+    },
+    {
+     "texte": "Estuário",
+     "chemin": "header#hero > nav.nav.laje > a.logo",
+     "taille": 20,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 3.0,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      64,
+      23,
+      74,
+      26
+     ]
+    },
+    {
+     "texte": "Programa",
+     "chemin": "nav.nav.laje > ul.menu > li > a",
+     "taille": 16,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      202,
+      26,
+      68,
+      20
+     ]
+    },
+    {
+     "texte": "Exposições",
+     "chemin": "nav.nav.laje > ul.menu > li > a",
+     "taille": 16,
+     "statut": "mesuré",
+     "pire": 14.92,
+     "median": 15.17,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      298,
+      26,
+      76,
+      20
+     ]
+    },
+    {
+     "texte": "Lugares",
+     "chemin": "nav.nav.laje > ul.menu > li > a",
+     "taille": 16,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      402,
+      26,
+      55,
+      20
+     ]
+    },
+    {
+     "texte": "Visitar",
+     "chemin": "nav.nav.laje > ul.menu > li > a",
+     "taille": 16,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      485,
+      26,
+      43,
+      20
+     ]
+    },
+    {
+     "texte": "PT",
+     "chemin": "nav.nav.laje > div.fim > span.lang > a",
+     "taille": 16,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1206,
+      26,
+      18,
+      20
+     ]
+    },
+    {
+     "texte": "/",
+     "chemin": "header#hero > nav.nav.laje > div.fim > span.lang",
+     "taille": 16,
+     "statut": "mesuré",
+     "pire": 6.42,
+     "median": 6.48,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1224,
+      26,
+      12,
+      20
+     ]
+    },
+    {
+     "texte": "EN",
+     "chemin": "nav.nav.laje > div.fim > span.lang > a",
+     "taille": 16,
+     "statut": "mesuré",
+     "pire": 6.37,
+     "median": 6.48,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1236,
+      26,
+      20,
+      20
+     ]
+    },
+    {
+     "texte": "Bilhetes",
+     "chemin": "header#hero > nav.nav.laje > div.fim > a.btn.s",
+     "taille": 16,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1302,
+      26,
+      56,
+      20
+     ]
+    },
+    {
+     "texte": "ESTU",
+     "chemin": "h1#nome > span",
+     "taille": 297.3,
+     "statut": "non évalué",
+     "raison": "texte rempli par un dégradé, une image ou sans remplissage"
+    },
+    {
+     "texte": "ÁRIO",
+     "chemin": "h1#nome > span",
+     "taille": 297.3,
+     "statut": "non évalué",
+     "raison": "texte rempli par un dégradé, une image ou sans remplissage"
+    },
+    {
+     "texte": "Festival Internacional de Arquitetura e Design",
+     "chemin": "div#lancil > p.o-que",
+     "taille": 20,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      64,
+      479,
+      212,
+      50
+     ]
+    },
+    {
+     "texte": "4.ª edição, em 38 lugares da cidade",
+     "chemin": "div#lancil > p.o-que > small",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 6.38,
+     "median": 6.48,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      64,
+      536,
+      221,
+      18
+     ]
+    },
+    {
+     "texte": "17 Abr",
+     "chemin": "div#lancil > p.quando > time",
+     "taille": 34,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 3.0,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      394,
+      475,
+      96,
+      43
+     ]
+    },
+    {
+     "texte": "—",
+     "chemin": "div#lancil > p.quando",
+     "taille": 34,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 3.0,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      490,
+      475,
+      43,
+      43
+     ]
+    },
+    {
+     "texte": "16 Mai",
+     "chemin": "div#lancil > p.quando > time",
+     "taille": 34,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 3.0,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      533,
+      475,
+      101,
+      43
+     ]
+    },
+    {
+     "texte": "2027, Lisboa",
+     "chemin": "div#lancil > p.quando > small",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 6.38,
+     "median": 6.48,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      394,
+      523,
+      82,
+      18
+     ]
+    },
+    {
+     "texte": "Terra Firme",
+     "chemin": "div#lancil > p.tema",
+     "taille": 20,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      709,
+      479,
+      102,
+      26
+     ]
+    },
+    {
+     "texte": "Building on shifting ground",
+     "chemin": "div#lancil > p.tema > small",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 6.38,
+     "median": 6.48,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      709,
+      512,
+      169,
+      18
+     ]
+    },
+    {
+     "texte": "Passe do festival",
+     "chemin": "a#cta",
+     "taille": 17,
+     "statut": "mesuré",
+     "pire": 15.73,
+     "median": 15.73,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1052,
+      506,
+      125,
+      21
+     ]
+    },
+    {
+     "texte": "Ver programa",
+     "chemin": "div#lancil > p.acoes > a.btn.s",
+     "taille": 17,
+     "statut": "mesuré",
+     "pire": 14.9,
+     "median": 15.17,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1245,
+      506,
+      103,
+      21
+     ]
+    },
+    {
+     "texte": "Chão desenhado a partir do Mar Largo, Rossio",
+     "chemin": "header#hero > p.legenda",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 15.73,
+     "median": 15.73,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1113,
+      857,
+      253,
+      16
+     ]
+    }
+   ],
+   "hauteur_page": 900
+  },
+  "390": {
+   "zones": [
+    {
+     "part": 0.13793694181588295,
+     "boite": [
+      0,
+      649,
+      390,
+      76
+     ],
+     "centre": [
+      193,
+      690
+     ],
+     "sous": {
+      "element": "div.mar",
+      "texte": ""
+     }
+    },
+    {
+     "part": 0.11991042491602337,
+     "boite": [
+      0,
+      733,
+      390,
+      75
+     ],
+     "centre": [
+      189,
+      773
+     ],
+     "sous": {
+      "element": "div.mar",
+      "texte": ""
+     }
+    },
+    {
+     "part": 0.07988357489085146,
+     "boite": [
+      19,
+      558,
+      170,
+      49
+     ],
+     "centre": [
+      106,
+      581
+     ],
+     "sous": {
+      "element": "a.btn.p",
+      "texte": "Passe do festival"
+     }
+    },
+    {
+     "part": 0.009033570968972783,
+     "boite": [
+      106,
+      836,
+      147,
+      8
+     ],
+     "centre": [
+      181,
+      840
+     ],
+     "sous": {
+      "element": "div.mar",
+      "texte": ""
+     }
+    }
+   ],
+   "foyer": "#nome",
+   "foyer_mesure": {
+    "part": 0.24280222762708842,
+    "aire": 0.3506926722566533,
+    "levier": 0.6923504448059707
+   },
+   "contraste": [
+    {
+     "texte": "ESTU",
+     "chemin": "svg > g > g > text",
+     "taille": 162.5,
+     "statut": "non évalué",
+     "raison": "texte rempli par un dégradé, une image ou sans remplissage"
+    },
+    {
+     "texte": "ÁRIO",
+     "chemin": "svg > g > g > text",
+     "taille": 162.5,
+     "statut": "non évalué",
+     "raison": "texte rempli par un dégradé, une image ou sans remplissage"
+    },
+    {
+     "texte": "Estuário",
+     "chemin": "header#hero > nav.nav.laje > a.logo",
+     "taille": 20,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 3.0,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      16,
+      17,
+      74,
+      26
+     ]
+    },
+    {
+     "texte": "Bilhetes",
+     "chemin": "header#hero > nav.nav.laje > div.fim > a.btn.s",
+     "taille": 16,
+     "statut": "mesuré",
+     "pire": 14.9,
+     "median": 15.17,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      219,
+      20,
+      56,
+      20
+     ]
+    },
+    {
+     "texte": "Menu",
+     "chemin": "header#hero > nav.nav.laje > div.fim > button.burger",
+     "taille": 16,
+     "statut": "mesuré",
+     "pire": 14.9,
+     "median": 15.17,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      331,
+      20,
+      39,
+      20
+     ]
+    },
+    {
+     "texte": "ESTU",
+     "chemin": "h1#nome > span",
+     "taille": 162.4,
+     "statut": "non évalué",
+     "raison": "texte rempli par un dégradé, une image ou sans remplissage"
+    },
+    {
+     "texte": "ÁRIO",
+     "chemin": "h1#nome > span",
+     "taille": 162.4,
+     "statut": "non évalué",
+     "raison": "texte rempli par un dégradé, une image ou sans remplissage"
+    },
+    {
+     "texte": "Festival Internacional de Arquitetura e Design",
+     "chemin": "div#lancil > p.o-que",
+     "taille": 16,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      16,
+      439,
+      315,
+      20
+     ]
+    },
+    {
+     "texte": "17 Abr",
+     "chemin": "div#lancil > p.quando > time",
+     "taille": 23,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 3.0,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      16,
+      473,
+      65,
+      29
+     ]
+    },
+    {
+     "texte": "—",
+     "chemin": "div#lancil > p.quando",
+     "taille": 23,
+     "statut": "mesuré",
+     "pire": 14.9,
+     "median": 15.17,
+     "seuil": 3.0,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      81,
+      473,
+      29,
+      29
+     ]
+    },
+    {
+     "texte": "16 Mai",
+     "chemin": "div#lancil > p.quando > time",
+     "taille": 23,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 3.0,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      110,
+      473,
+      68,
+      29
+     ]
+    },
+    {
+     "texte": "2027, Lisboa",
+     "chemin": "div#lancil > p.quando > small",
+     "taille": 14,
+     "statut": "mesuré",
+     "pire": 6.42,
+     "median": 6.48,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      16,
+      503,
+      77,
+      17
+     ]
+    },
+    {
+     "texte": "Terra Firme",
+     "chemin": "div#lancil > p.tema",
+     "taille": 17,
+     "statut": "mesuré",
+     "pire": 14.93,
+     "median": 15.17,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      227,
+      475,
+      86,
+      21
+     ]
+    },
+    {
+     "texte": "Building on shifting ground",
+     "chemin": "div#lancil > p.tema > small",
+     "taille": 14,
+     "statut": "mesuré",
+     "pire": 6.38,
+     "median": 6.48,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      227,
+      501,
+      113,
+      34
+     ]
+    },
+    {
+     "texte": "Passe do festival",
+     "chemin": "a#cta",
+     "taille": 17,
+     "statut": "mesuré",
+     "pire": 15.73,
+     "median": 15.73,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      40,
+      571,
+      125,
+      21
+     ]
+    },
+    {
+     "texte": "Ver programa",
+     "chemin": "div#lancil > p.acoes > a.btn.s",
+     "taille": 17,
+     "statut": "mesuré",
+     "pire": 14.9,
+     "median": 15.17,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      236,
+      571,
+      103,
+      21
+     ]
+    },
+    {
+     "texte": "Chão desenhado a partir do Mar Largo, Rossio",
+     "chemin": "header#hero > p.legenda",
+     "taille": 12,
+     "statut": "mesuré",
+     "pire": 15.73,
+     "median": 15.73,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      130,
+      809,
+      234,
+      15
+     ]
+    }
+   ],
+   "hauteur_page": 844
+  }
+ },
+ "marqueurs": {
+  "largeur": 1440,
+  "route": "SAVOIR/TOOLS/CONVERGENCE",
+  "lisible": true,
+  "veille": "2026-10",
+  "echeance": "2027-03",
+  "perimee": false,
+  "presents": [],
+  "absents": [
+   "violet",
+   "police Inter",
+   "halos et gradient décoratif",
+   "hero SaaS à cartes répétées",
+   "fond beige ou crème",
+   "brun",
+   "serif de caractère ou serif italique",
+   "orange rouille",
+   "bandeau défilant",
+   "ASCII",
+   "bleu Klein",
+   "libellés mono en capitales"
+  ],
+  "non_mesures": [
+   "illustration peinte",
+   "tramage",
+   "dithering",
+   "logos pixel",
+   "hachures de plan",
+   "gravures",
+   "repères de recadrage",
+   "paysage peint en fond"
+  ]
+ }
+}
