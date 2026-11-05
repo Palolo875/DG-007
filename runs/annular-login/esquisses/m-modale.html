@@ -1,0 +1,31 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>M · modale</title><link rel="stylesheet" href="../fonts/polices.css"><style>
+.f{display:flex;flex-direction:column}
+.f label{font-size:14px;font-weight:500;margin-bottom:6px}
+.f input{height:44px;border:1.5px solid var(--ink);background:var(--field);padding:0 12px;font:inherit;font-size:16px;margin-bottom:14px;color:var(--ink);border-radius:0}
+.f .lr{display:flex;justify-content:space-between;align-items:baseline}.f .lr a{font-size:13px;color:var(--ink)}
+.f .go{height:48px;background:var(--ink);color:var(--paper);border:0;font:inherit;font-weight:600;font-size:16px;margin-top:4px;cursor:pointer}
+.f .or{display:flex;align-items:center;gap:10px;margin:14px 0;font-size:13px;color:var(--mute)}.f .or:before,.f .or:after{content:"";flex:1;border-top:1px solid var(--rule)}
+.f .alt{height:44px;background:transparent;border:1.5px solid var(--ink);font:inherit;font-size:15px;color:var(--ink);margin-bottom:8px;cursor:pointer}
+.f .new{font-size:14px;margin-top:8px;color:var(--mute)}.f .new a{color:var(--ink)}
+*{box-sizing:border-box;margin:0;padding:0}
+
+:root{--ink:#0B0D0E;--paper:#fff;--field:#fff;--mute:#6B7075;--rule:#E3E5E8}
+body{font-family:Inter,sans-serif;color:var(--ink);background:#fff}
+.pg{display:grid;grid-template-columns:1fr 1fr;width:1440px;height:900px}
+.l{padding:64px 120px;display:flex;flex-direction:column;justify-content:center}
+.l .brand{display:flex;gap:10px;align-items:center;font-weight:700;font-size:20px;position:absolute;top:40px;left:64px}.mark{width:22px;height:22px}
+.l h1{font-size:30px;font-weight:600;letter-spacing:-.02em;margin-bottom:8px}.l .sub{color:var(--mute);margin-bottom:28px}
+.f input,.f .alt{border:1px solid #D9DCE0;border-radius:8px}.f .go{border-radius:8px}
+.r{background:radial-gradient(600px 400px at 70% 30%,#1FAF6E55,transparent),radial-gradient(500px 500px at 30% 80%,#2563EB44,transparent),#0B0F0E;color:#fff;padding:80px;display:flex;flex-direction:column;justify-content:flex-end}
+.r blockquote{font-size:26px;line-height:1.35;max-width:520px}.r cite{display:block;margin-top:20px;font-style:normal;color:#9AA3A8;font-size:15px}
+</style></head><body><div class="pg"><div class="l"><div class="brand"><svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.2" fill="none" stroke="currentColor" stroke-width="5.2"/></svg>Annular</div><h1>Bon retour parmi nous</h1><p class="sub">Connectez-vous pour reprendre vos revues.</p><form class="f " novalidate>
+<label for="e">E-mail professionnel</label><input id="e" type="email" autocomplete="username" value="">
+<div class="lr"><label for="p">Mot de passe</label><a href="#">Mot de passe oublié ?</a></div>
+<input id="p" type="password" autocomplete="current-password">
+<button class="go" type="submit">Se connecter</button>
+<div class="or"><span>ou</span></div>
+<button class="alt" type="button">Continuer avec une clé d'accès</button>
+<button class="alt" type="button">Connexion unique (SSO)</button>
+<p class="new">Pas encore de compte ? <a href="#">Demander un accès</a></p></form></div>
+<div class="r"><blockquote>« Annular a divisé par deux nos cycles de revue avant fabrication. »</blockquote><cite>Responsable hardware, client (exemple)</cite></div></div></body></html>

@@ -1,0 +1,48 @@
+{
+ "largeur": 1440,
+ "entree": [
+  {
+   "type": "CSSAnimation",
+   "nom": "trace",
+   "cible": "path",
+   "id": "1",
+   "duree": 900,
+   "fin": 1150,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "strokeDashoffset"
+   ],
+   "neuf": true
+  },
+  {
+   "type": "CSSAnimation",
+   "nom": "apparait",
+   "cible": "g",
+   "id": "2",
+   "duree": 300,
+   "fin": 1350,
+   "infinie": false,
+   "defile": false,
+   "props": [
+    "opacity"
+   ],
+   "neuf": true
+  }
+ ],
+ "duree": 1350,
+ "defile": 0,
+ "revelations": [],
+ "cartes": [],
+ "script": false,
+ "invisibles": [],
+ "reduit": [],
+ "action_ms": 0,
+ "survol": [
+  {
+   "cible": "action",
+   "change": true
+  }
+ ],
+ "planche": "parcours-final/mouvement-1440.png"
+}

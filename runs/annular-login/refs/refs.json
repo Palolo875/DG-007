@@ -1,0 +1,62 @@
+[
+  {
+    "type": "site",
+    "source": "linear.app",
+    "page": "https://linear.app/login",
+    "titre": "Linear",
+    "auteur": "",
+    "licence": "consultation",
+    "statut": "ok",
+    "fichier": "1-site.png",
+    "n": 1,
+    "consulte": "2026-11-05",
+    "change": "",
+    "ne_se_transfere_pas": "",
+    "usage": "regarder"
+  },
+  {
+    "type": "site",
+    "source": "vercel.com",
+    "page": "https://vercel.com/login",
+    "titre": "Login – Vercel",
+    "auteur": "",
+    "licence": "consultation",
+    "statut": "ok",
+    "fichier": "2-site.png",
+    "n": 2,
+    "consulte": "2026-11-05",
+    "change": "",
+    "ne_se_transfere_pas": "",
+    "usage": "regarder"
+  },
+  {
+    "type": "site",
+    "source": "dashboard.stripe.com",
+    "page": "https://dashboard.stripe.com/login",
+    "titre": "Stripe Login | Sign in to the Stripe Dashboard",
+    "auteur": "",
+    "licence": "consultation",
+    "statut": "ok",
+    "fichier": "3-site.png",
+    "n": 3,
+    "consulte": "2026-11-05",
+    "change": "",
+    "ne_se_transfere_pas": "",
+    "usage": "regarder"
+  },
+  {
+    "type": "site",
+    "source": "www.figma.com",
+    "page": "https://www.figma.com/login",
+    "titre": "Login | Figma",
+    "auteur": "",
+    "licence": "consultation",
+    "statut": "ok",
+    "fichier": "4-site.png",
+    "n": 4,
+    "consulte": "2026-11-05",
+    "change": "",
+    "ne_se_transfere_pas": "",
+    "usage": "regarder"
+  }
+]

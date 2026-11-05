@@ -1,0 +1,2578 @@
+{
+ "page": "index.html",
+ "attention_modele": "classique",
+ "largeurs": {
+  "1440": {
+   "zones": [
+    {
+     "part": 0.3327855694352298,
+     "boite": [
+      824,
+      537,
+      616,
+      188
+     ],
+     "centre": [
+      1139,
+      635
+     ],
+     "sous": {
+      "element": "button.btn.p",
+      "texte": "Se connecter"
+     }
+    },
+    {
+     "part": 0.11436910201115758,
+     "boite": [
+      325,
+      437,
+      229,
+      215
+     ],
+     "centre": [
+      438,
+      543
+     ],
+     "sous": {
+      "element": "svg.plan-svg",
+      "texte": "Exemple de plan de fabrication : carte de 62 × 38 "
+     }
+    },
+    {
+     "part": 0.014837400039831007,
+     "boite": [
+      933,
+      336,
+      117,
+      90
+     ],
+     "centre": [
+      986,
+      384
+     ],
+     "sous": {
+      "element": "div.titre.plein",
+      "texte": "Se connecter"
+     }
+    }
+   ],
+   "foyer": "#cartouche",
+   "foyer_mesure": {
+    "part": 0.4316131886723869,
+    "aire": 0.20987654320987653,
+    "levier": 2.056509898968432
+   },
+   "contraste": [
+    {
+     "texte": "1",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z1",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      124,
+      28,
+      4,
+      13
+     ]
+    },
+    {
+     "texte": "2",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z2",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      293,
+      28,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "3",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z3",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      463,
+      28,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "4",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z4",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      632,
+      28,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "5",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z5",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      802,
+      28,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "6",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z6",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      972,
+      28,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "7",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z7",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1141,
+      28,
+      5,
+      13
+     ]
+    },
+    {
+     "texte": "8",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z8",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1311,
+      28,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "1",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z1",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      124,
+      860,
+      4,
+      13
+     ]
+    },
+    {
+     "texte": "2",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z2",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      293,
+      860,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "3",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z3",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      463,
+      860,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "4",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z4",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      632,
+      860,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "5",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z5",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      802,
+      860,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "6",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z6",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      972,
+      860,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "7",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z7",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1141,
+      860,
+      5,
+      13
+     ]
+    },
+    {
+     "texte": "8",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z8",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1311,
+      860,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "A",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      31,
+      103,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "B",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      31,
+      239,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "C",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      31,
+      375,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "D",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      31,
+      512,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "E",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      31,
+      648,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "F",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      31,
+      784,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "A",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1403,
+      103,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "B",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1403,
+      239,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "C",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1403,
+      375,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "D",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1403,
+      512,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "E",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1403,
+      648,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "F",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1403,
+      784,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "NOTES",
+     "chemin": "h2#notes-t",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      78,
+      73,
+      45,
+      16
+     ]
+    },
+    {
+     "texte": "La revue de conception électronique, de la première pastille à la mise",
+     "chemin": "section.notes > ol > li > span",
+     "taille": 24,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 3.0,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      106,
+      99,
+      445,
+      58
+     ]
+    },
+    {
+     "texte": "Chaque révision de carte est annotée, discutée, puis signée.",
+     "chemin": "section.notes > ol > li > span",
+     "taille": 17,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      106,
+      171,
+      438,
+      20
+     ]
+    },
+    {
+     "texte": "Fichiers Gerber, perçage et nomenclature au même endroit.",
+     "chemin": "section.notes > ol > li > span",
+     "taille": 17,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      106,
+      201,
+      437,
+      20
+     ]
+    },
+    {
+     "texte": "Prototype : rien n'est envoyé. Compte de démonstration :",
+     "chemin": "section.notes > ol > li.demo > span",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      106,
+      230,
+      369,
+      18
+     ]
+    },
+    {
+     "texte": "demo@example.com",
+     "chemin": "ol > li.demo > span > b",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      475,
+      230,
+      138,
+      18
+     ]
+    },
+    {
+     "texte": ", mot de passe",
+     "chemin": "section.notes > ol > li.demo > span",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      106,
+      230,
+      510,
+      39
+     ]
+    },
+    {
+     "texte": "revision-c",
+     "chemin": "ol > li.demo > span > b",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      195,
+      251,
+      66,
+      18
+     ]
+    },
+    {
+     "texte": ".",
+     "chemin": "section.notes > ol > li.demo > span",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      262,
+      251,
+      4,
+      18
+     ]
+    },
+    {
+     "texte": "62,00",
+     "chemin": "div.dessin > div.plan > svg.plan-svg > text.cote",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      455,
+      764,
+      38,
+      19
+     ]
+    },
+    {
+     "texte": "38,00",
+     "chemin": "div.dessin > div.plan > svg.plan-svg > text.cote",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": true,
+     "boite": [
+      100,
+      541,
+      19,
+      38
+     ]
+    },
+    {
+     "texte": "ANN-2041 · Carte capteur · 4 couches",
+     "chemin": "div.dessin > div.plan > svg.plan-svg > text.legende",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      151,
+      319,
+      263,
+      19
+     ]
+    },
+    {
+     "texte": "RÉVISIONS",
+     "chemin": "div.dessin > div.droite > table.revs > caption",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      911,
+      51,
+      72,
+      16
+     ]
+    },
+    {
+     "texte": "Rév.",
+     "chemin": "table.revs > tbody > tr > th",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      911,
+      83,
+      24,
+      16
+     ]
+    },
+    {
+     "texte": "Description",
+     "chemin": "table.revs > tbody > tr > th",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      981,
+      83,
+      66,
+      16
+     ]
+    },
+    {
+     "texte": "Date",
+     "chemin": "table.revs > tbody > tr > th",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1175,
+      83,
+      26,
+      16
+     ]
+    },
+    {
+     "texte": "Approuvé",
+     "chemin": "table.revs > tbody > tr > th",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1298,
+      83,
+      55,
+      16
+     ]
+    },
+    {
+     "texte": "A",
+     "chemin": "table.revs > tbody > tr > td",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      911,
+      112,
+      8,
+      16
+     ]
+    },
+    {
+     "texte": "Création",
+     "chemin": "table.revs > tbody > tr > td",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      981,
+      112,
+      49,
+      16
+     ]
+    },
+    {
+     "texte": "12.09.2026",
+     "chemin": "table.revs > tbody > tr > td",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1175,
+      112,
+      61,
+      16
+     ]
+    },
+    {
+     "texte": "oui",
+     "chemin": "table.revs > tbody > tr > td",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1298,
+      112,
+      18,
+      16
+     ]
+    },
+    {
+     "texte": "B",
+     "chemin": "table.revs > tbody > tr > td",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      911,
+      142,
+      8,
+      16
+     ]
+    },
+    {
+     "texte": "Alimentation 3V3",
+     "chemin": "table.revs > tbody > tr > td",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      981,
+      142,
+      97,
+      16
+     ]
+    },
+    {
+     "texte": "03.10.2026",
+     "chemin": "table.revs > tbody > tr > td",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1175,
+      142,
+      62,
+      16
+     ]
+    },
+    {
+     "texte": "oui",
+     "chemin": "table.revs > tbody > tr > td",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1298,
+      142,
+      18,
+      16
+     ]
+    },
+    {
+     "texte": "C",
+     "chemin": "table.revs > tbody > tr > td.c",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 4.96,
+     "median": 4.96,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      911,
+      171,
+      8,
+      16
+     ]
+    },
+    {
+     "texte": "U3 déplacé, routage",
+     "chemin": "table.revs > tbody > tr > td.c",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 4.96,
+     "median": 4.96,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      981,
+      171,
+      113,
+      16
+     ]
+    },
+    {
+     "texte": "—",
+     "chemin": "table.revs > tbody > tr > td",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1175,
+      171,
+      9,
+      16
+     ]
+    },
+    {
+     "texte": "à signer",
+     "chemin": "table.revs > tbody > tr > td.c",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 4.96,
+     "median": 4.96,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1298,
+      171,
+      45,
+      16
+     ]
+    },
+    {
+     "texte": "Annular",
+     "chemin": "section#cartouche > div.marque",
+     "taille": 24,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 3.0,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      948,
+      331,
+      84,
+      29
+     ]
+    },
+    {
+     "texte": "Document",
+     "chemin": "section#cartouche > div > span.k",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1297,
+      324,
+      58,
+      16
+     ]
+    },
+    {
+     "texte": "Connexion",
+     "chemin": "section#cartouche > div > span.v",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1297,
+      346,
+      70,
+      18
+     ]
+    },
+    {
+     "texte": "Se connecter",
+     "chemin": "h1#titre",
+     "taille": 30,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 3.0,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      918,
+      386,
+      174,
+      36
+     ]
+    },
+    {
+     "texte": "E-mail professionnel",
+     "chemin": "form#connexion > div.champ > label",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      918,
+      450,
+      135,
+      18
+     ]
+    },
+    {
+     "texte": "Mot de passe",
+     "chemin": "form#connexion > div.champ.lr > label",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      918,
+      530,
+      85,
+      18
+     ]
+    },
+    {
+     "texte": "Afficher",
+     "chemin": "button#voir",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 16.91,
+     "median": 16.91,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1310,
+      570,
+      54,
+      18
+     ]
+    },
+    {
+     "texte": "Mot de passe oublié ?",
+     "chemin": "a#oubli",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1243,
+      530,
+      137,
+      18
+     ]
+    },
+    {
+     "texte": "Se connecter",
+     "chemin": "button#go",
+     "taille": 17,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1099,
+      628,
+      99,
+      20
+     ]
+    },
+    {
+     "texte": "ou",
+     "chemin": "form#connexion > div.ou",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1142,
+      677,
+      14,
+      16
+     ]
+    },
+    {
+     "texte": "Clé d'accès",
+     "chemin": "button#cle",
+     "taille": 17,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1004,
+      716,
+      82,
+      20
+     ]
+    },
+    {
+     "texte": "SSO de l'organisation",
+     "chemin": "button#sso",
+     "taille": 17,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1189,
+      716,
+      155,
+      20
+     ]
+    },
+    {
+     "texte": "Pas encore de compte ?",
+     "chemin": "form#connexion > p.nouveau",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      918,
+      763,
+      157,
+      18
+     ]
+    },
+    {
+     "texte": "Demander un accès",
+     "chemin": "form#connexion > p.nouveau > a",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1075,
+      763,
+      128,
+      18
+     ]
+    },
+    {
+     "texte": "Approuvé par",
+     "chemin": "section#cartouche > div.bas > span.k",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      915,
+      806,
+      75,
+      16
+     ]
+    },
+    {
+     "texte": "à signer",
+     "chemin": "output#signe",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      915,
+      828,
+      52,
+      18
+     ]
+    },
+    {
+     "texte": "Date",
+     "chemin": "section#cartouche > div.bas > span.k",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1089,
+      806,
+      26,
+      16
+     ]
+    },
+    {
+     "texte": "05.11.2026",
+     "chemin": "span#date",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1089,
+      828,
+      68,
+      18
+     ]
+    },
+    {
+     "texte": "Feuille",
+     "chemin": "section#cartouche > div.bas > span.k",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1205,
+      806,
+      37,
+      16
+     ]
+    },
+    {
+     "texte": "1 / 1",
+     "chemin": "section#cartouche > div.bas > span.v",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1205,
+      828,
+      23,
+      18
+     ]
+    },
+    {
+     "texte": "Statut",
+     "chemin": "section#cartouche > div.bas > span.k",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1297,
+      806,
+      35,
+      16
+     ]
+    },
+    {
+     "texte": "Prototype",
+     "chemin": "section#cartouche > div.bas > span.v",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      1297,
+      828,
+      66,
+      18
+     ]
+    }
+   ],
+   "hauteur_page": 900
+  },
+  "390": {
+   "zones": [
+    {
+     "part": 0.33741639875489055,
+     "boite": [
+      24,
+      585,
+      341,
+      65
+     ],
+     "centre": [
+      193,
+      616
+     ],
+     "sous": {
+      "element": "button.btn.p",
+      "texte": "Se connecter"
+     }
+    },
+    {
+     "part": 0.0423557980903857,
+     "boite": [
+      7,
+      286,
+      123,
+      68
+     ],
+     "centre": [
+      54,
+      319
+     ],
+     "sous": {
+      "element": "circle",
+      "texte": ""
+     }
+    },
+    {
+     "part": 0.026712325614411565,
+     "boite": [
+      32,
+      373,
+      146,
+      34
+     ],
+     "centre": [
+      100,
+      389
+     ],
+     "sous": {
+      "element": "h1",
+      "texte": "Se connecter"
+     }
+    },
+    {
+     "part": 0.005972745608258034,
+     "boite": [
+      161,
+      127,
+      64,
+      47
+     ],
+     "centre": [
+      193,
+      155
+     ],
+     "sous": {
+      "element": "svg.plan-svg",
+      "texte": "Exemple de plan de fabrication : carte de 62 × 38 "
+     }
+    }
+   ],
+   "foyer": "#cartouche",
+   "foyer_mesure": {
+    "part": 0.7525515962385341,
+    "aire": 0.5949568598857699,
+    "levier": 1.2648843083900605
+   },
+   "contraste": [
+    {
+     "texte": "1",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z1",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      63,
+      10,
+      4,
+      13
+     ]
+    },
+    {
+     "texte": "2",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z2",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      149,
+      10,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "3",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z3",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      235,
+      10,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "4",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z4",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      322,
+      10,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "1",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z1",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      63,
+      1164,
+      4,
+      13
+     ]
+    },
+    {
+     "texte": "2",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z2",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      149,
+      1164,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "3",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z3",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      235,
+      1164,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "4",
+     "chemin": "main.feuille > div.cadre > div.zones.h > span.z4",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      322,
+      1164,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "A",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      13,
+      110,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "B",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      13,
+      301,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "C",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      13,
+      491,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "D",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      13,
+      682,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "E",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      13,
+      873,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "F",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      13,
+      1063,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "A",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      371,
+      110,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "B",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      371,
+      301,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "C",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      371,
+      491,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "D",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      371,
+      682,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "E",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      371,
+      873,
+      7,
+      13
+     ]
+    },
+    {
+     "texte": "F",
+     "chemin": "main.feuille > div.cadre > div.zones.v > span",
+     "taille": 11,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      371,
+      1063,
+      6,
+      13
+     ]
+    },
+    {
+     "texte": "NOTES",
+     "chemin": "h2#notes-t",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      28,
+      881,
+      45,
+      16
+     ]
+    },
+    {
+     "texte": "La revue de conception électronique, de la première pastille à la mise",
+     "chemin": "section.notes > ol > li > span",
+     "taille": 17,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      56,
+      908,
+      299,
+      61
+     ]
+    },
+    {
+     "texte": "Chaque révision de carte est annotée, discutée, puis signée.",
+     "chemin": "section.notes > ol > li > span",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      56,
+      983,
+      243,
+      39
+     ]
+    },
+    {
+     "texte": "Fichiers Gerber, perçage et nomenclature au même endroit.",
+     "chemin": "section.notes > ol > li > span",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      56,
+      1031,
+      288,
+      39
+     ]
+    },
+    {
+     "texte": "Prototype : rien n'est envoyé. Compte de démonstration :",
+     "chemin": "section.notes > ol > li.demo > span",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      56,
+      1079,
+      259,
+      39
+     ]
+    },
+    {
+     "texte": "demo@example.com",
+     "chemin": "ol > li.demo > span > b",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      163,
+      1100,
+      138,
+      18
+     ]
+    },
+    {
+     "texte": ", mot de passe",
+     "chemin": "section.notes > ol > li.demo > span",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      56,
+      1100,
+      297,
+      39
+     ]
+    },
+    {
+     "texte": "revision-c",
+     "chemin": "ol > li.demo > span > b",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      97,
+      1121,
+      66,
+      18
+     ]
+    },
+    {
+     "texte": ".",
+     "chemin": "section.notes > ol > li.demo > span",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      164,
+      1121,
+      4,
+      18
+     ]
+    },
+    {
+     "texte": "62,00",
+     "chemin": "div.dessin > div.plan > svg.plan-svg > text.cote",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      193,
+      243,
+      17,
+      8
+     ]
+    },
+    {
+     "texte": "38,00",
+     "chemin": "div.dessin > div.plan > svg.plan-svg > text.cote",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": true,
+     "boite": [
+      32,
+      141,
+      8,
+      17
+     ]
+    },
+    {
+     "texte": "ANN-2041 · Carte capteur · 4 couches",
+     "chemin": "div.dessin > div.plan > svg.plan-svg > text.legende",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      55,
+      40,
+      120,
+      8
+     ]
+    },
+    {
+     "texte": "Annular",
+     "chemin": "section#cartouche > div.marque",
+     "taille": 17,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      70,
+      310,
+      60,
+      20
+     ]
+    },
+    {
+     "texte": "Document",
+     "chemin": "section#cartouche > div > span.k",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      301,
+      288,
+      58,
+      16
+     ]
+    },
+    {
+     "texte": "Connexion",
+     "chemin": "section#cartouche > div > span.v",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      301,
+      310,
+      53,
+      40
+     ]
+    },
+    {
+     "texte": "Se connecter",
+     "chemin": "h1#titre",
+     "taille": 24,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 3.0,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      36,
+      373,
+      139,
+      29
+     ]
+    },
+    {
+     "texte": "E-mail professionnel",
+     "chemin": "form#connexion > div.champ > label",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      36,
+      428,
+      135,
+      18
+     ]
+    },
+    {
+     "texte": "Mot de passe",
+     "chemin": "form#connexion > div.champ.lr > label",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      36,
+      508,
+      85,
+      18
+     ]
+    },
+    {
+     "texte": "Afficher",
+     "chemin": "button#voir",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 16.91,
+     "median": 16.91,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      284,
+      548,
+      54,
+      18
+     ]
+    },
+    {
+     "texte": "Mot de passe oublié ?",
+     "chemin": "a#oubli",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      217,
+      508,
+      137,
+      18
+     ]
+    },
+    {
+     "texte": "Se connecter",
+     "chemin": "button#go",
+     "taille": 17,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      145,
+      606,
+      99,
+      20
+     ]
+    },
+    {
+     "texte": "ou",
+     "chemin": "form#connexion > div.ou",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      188,
+      655,
+      14,
+      16
+     ]
+    },
+    {
+     "texte": "Clé d'accès",
+     "chemin": "button#cle",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      91,
+      695,
+      73,
+      18
+     ]
+    },
+    {
+     "texte": "SSO de l'organisation",
+     "chemin": "button#sso",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      208,
+      695,
+      137,
+      18
+     ]
+    },
+    {
+     "texte": "Pas encore de compte ?",
+     "chemin": "form#connexion > p.nouveau",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      36,
+      741,
+      157,
+      18
+     ]
+    },
+    {
+     "texte": "Demander un accès",
+     "chemin": "form#connexion > p.nouveau > a",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      193,
+      741,
+      128,
+      18
+     ]
+    },
+    {
+     "texte": "Approuvé par",
+     "chemin": "section#cartouche > div.bas > span.k",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      37,
+      784,
+      75,
+      16
+     ]
+    },
+    {
+     "texte": "à signer",
+     "chemin": "output#signe",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      37,
+      805,
+      52,
+      18
+     ]
+    },
+    {
+     "texte": "Date",
+     "chemin": "section#cartouche > div.bas > span.k",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      152,
+      784,
+      26,
+      16
+     ]
+    },
+    {
+     "texte": "05.11.2026",
+     "chemin": "span#date",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      152,
+      805,
+      52,
+      40
+     ]
+    },
+    {
+     "texte": "Feuille",
+     "chemin": "section#cartouche > div.bas > span.k",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      235,
+      784,
+      37,
+      16
+     ]
+    },
+    {
+     "texte": "1 / 1",
+     "chemin": "section#cartouche > div.bas > span.v",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      235,
+      805,
+      23,
+      18
+     ]
+    },
+    {
+     "texte": "Statut",
+     "chemin": "section#cartouche > div.bas > span.k",
+     "taille": 13,
+     "statut": "mesuré",
+     "pire": 6.46,
+     "median": 6.46,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      301,
+      784,
+      35,
+      16
+     ]
+    },
+    {
+     "texte": "Prototype",
+     "chemin": "section#cartouche > div.bas > span.v",
+     "taille": 15,
+     "statut": "mesuré",
+     "pire": 15.75,
+     "median": 15.75,
+     "seuil": 4.5,
+     "sous_seuil": false,
+     "fond_heterogene": false,
+     "tourne": false,
+     "boite": [
+      301,
+      805,
+      49,
+      40
+     ]
+    }
+   ],
+   "hauteur_page": 1187
+  }
+ },
+ "marqueurs": {
+  "largeur": 1440,
+  "route": "SAVOIR/TOOLS/CONVERGENCE",
+  "lisible": true,
+  "veille": "2026-10",
+  "echeance": "2027-03",
+  "perimee": false,
+  "presents": [],
+  "absents": [
+   "violet",
+   "police Inter",
+   "halos et gradient décoratif",
+   "hero SaaS à cartes répétées",
+   "fond beige ou crème",
+   "brun",
+   "serif de caractère ou serif italique",
+   "orange rouille",
+   "bandeau défilant",
+   "ASCII",
+   "bleu Klein",
+   "libellés mono en capitales"
+  ],
+  "non_mesures": [
+   "illustration peinte",
+   "tramage",
+   "dithering",
+   "logos pixel",
+   "hachures de plan",
+   "gravures",
+   "repères de recadrage",
+   "paysage peint en fond"
+  ]
+ }
+}

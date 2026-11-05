@@ -1,0 +1,36 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>C · Couches</title><link rel="stylesheet" href="../fonts/polices.css"><style>
+.f{display:flex;flex-direction:column}
+.f label{font-size:14px;font-weight:500;margin-bottom:6px}
+.f input{height:44px;border:1.5px solid var(--ink);background:var(--field);padding:0 12px;font:inherit;font-size:16px;margin-bottom:14px;color:var(--ink);border-radius:0}
+.f .lr{display:flex;justify-content:space-between;align-items:baseline}.f .lr a{font-size:13px;color:var(--ink)}
+.f .go{height:48px;background:var(--ink);color:var(--paper);border:0;font:inherit;font-weight:600;font-size:16px;margin-top:4px;cursor:pointer}
+.f .or{display:flex;align-items:center;gap:10px;margin:14px 0;font-size:13px;color:var(--mute)}.f .or:before,.f .or:after{content:"";flex:1;border-top:1px solid var(--rule)}
+.f .alt{height:44px;background:transparent;border:1.5px solid var(--ink);font:inherit;font-size:15px;color:var(--ink);margin-bottom:8px;cursor:pointer}
+.f .new{font-size:14px;margin-top:8px;color:var(--mute)}.f .new a{color:var(--ink)}
+*{box-sizing:border-box;margin:0;padding:0}
+
+:root{--ink:#16181B;--paper:#FBFBF9;--field:#fff;--mute:#5B5F63;--rule:#C9CCD0}
+body{background:#E9EAEC;color:var(--ink);font-family:'IBM Plex Sans',sans-serif}
+.pg{position:relative;width:1440px;height:900px;overflow:hidden}
+.stack{position:absolute;left:520px;top:120px;width:420px;height:620px}
+.l{position:absolute;inset:0;border:1.5px solid var(--ink)}
+.l4{transform:translate(72px,72px);background:#D9B85E}.l3{transform:translate(48px,48px);background:repeating-linear-gradient(90deg,#B87333 0 6px,#C98A4E 6px 18px)}
+.l2{transform:translate(24px,24px);background:#1F5A3D}
+.l1{background:var(--paper);padding:34px 36px}
+.tag{position:absolute;right:-150px;font-size:13px;color:var(--mute);width:130px}.tag:before{content:"";position:absolute;left:-20px;top:8px;width:16px;border-top:1px solid var(--mute)}
+.l1 h1{font-size:26px;font-weight:600;margin-bottom:24px;display:flex;gap:12px;align-items:center}.mark{width:26px;height:26px}
+.side{position:absolute;left:80px;top:140px;width:340px;font-size:20px;line-height:1.35}
+</style></head><body><div class="pg"><p class="side">La revue de conception électronique. Chaque couche, chaque révision, signée avant fabrication.</p>
+<div class="stack"><div class="l l4"></div><div class="l l3"></div><div class="l l2"></div>
+<div class="l l1"><h1><svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.2" fill="none" stroke="currentColor" stroke-width="5.2"/></svg>Se connecter à Annular</h1><form class="f " novalidate>
+<label for="e">E-mail professionnel</label><input id="e" type="email" autocomplete="username" value="">
+<div class="lr"><label for="p">Mot de passe</label><a href="#">Mot de passe oublié ?</a></div>
+<input id="p" type="password" autocomplete="current-password">
+<button class="go" type="submit">Se connecter</button>
+<div class="or"><span>ou</span></div>
+<button class="alt" type="button">Continuer avec une clé d'accès</button>
+<button class="alt" type="button">Connexion unique (SSO)</button>
+<p class="new">Pas encore de compte ? <a href="#">Demander un accès</a></p></form></div>
+<span class="tag" style="top:20px">L1 · Sérigraphie</span><span class="tag" style="top:60px;right:-174px">L2 · Vernis</span>
+<span class="tag" style="top:100px;right:-198px">L3 · Cuivre</span><span class="tag" style="top:140px;right:-222px">L4 · Âme FR-4</span></div></div></body></html>

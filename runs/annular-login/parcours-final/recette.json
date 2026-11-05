@@ -1,0 +1,295 @@
+{
+  "provenance": {
+    "artifact_locator": "site/index.html",
+    "artifact_version": "3aa10319bb3e",
+    "method": "AUTOMATED",
+    "observed_at": "2026-11-05T16:48:00Z",
+    "scope": "état initial, largeurs 1440,390 px",
+    "external_requests_blocked": 0,
+    "settings": {
+      "proof": "#cartouche",
+      "tab_stops": 60,
+      "allow_external": false,
+      "wait_ms": 1500,
+      "in_frame": [
+        "#go"
+      ]
+    },
+    "browser": {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "executable": "playwright-managed"
+    }
+  },
+  "checks": [
+    {
+      "check": "Débordement horizontal",
+      "status": "PASS",
+      "detail": "aucun à 1440, 390 px",
+      "route": "SAVOIR/CONTEXT ; BIBLIOTHEQUE/SEQUENCE"
+    },
+    {
+      "check": "Défilement horizontal interne",
+      "status": "PASS",
+      "detail": "aucun",
+      "route": "SAVOIR/CONTEXT"
+    },
+    {
+      "check": "Erreurs JavaScript au chargement",
+      "status": "PASS",
+      "detail": "aucune",
+      "route": "SAVOIR/TECH"
+    },
+    {
+      "check": "Chevauchement et troncature de texte",
+      "status": "PASS",
+      "detail": "aucun à 1440, 390 px ; texte SVG compris, calques fixes ou collants exclus",
+      "route": "SAVOIR/TYPE ; SAVOIR/STATE"
+    },
+    {
+      "check": "Objet de l’état clé dans son cadre (--in-frame)",
+      "status": "PASS",
+      "detail": "tous les éléments ont leur centre dans le cadre, à l’état observé",
+      "route": "ACTION/VISUAL_PROOF"
+    },
+    {
+      "check": "Contraste du texte sur fond uni",
+      "status": "PASS-WITH-RESERVATION",
+      "detail": "aucun texte évalué sous le seuil WCAG 2.2 AA ; 1440 px : 74 texte(s) évalué(s), 82 candidat(s), 0 exclu(s) ; 390 px : 49 texte(s) évalué(s), 82 candidat(s), 25 exclu(s) ; 1440 px : texte non évalué : li (contenu ::before), li (contenu ::before), li (contenu ::before), li.demo (contenu ::before) ; 1440 px : candidat(s) restant hors évaluation ; 390 px : texte non évalué : li (contenu ::before), li (contenu ::before), li (contenu ::before), li.demo (contenu ::before) ; 390 px : candidat(s) restant hors évaluation ; texte SVG non évalué (text, text.cote, text.legende) : relever fill/stroke, opacités et fond réel, puis calculer le contraste ; méthode dans ACTION/RECETTE-RENDU",
+      "route": "SAVOIR/CRAFT/CFT-05 ; SAVOIR/CRAFT/CFT-03"
+    },
+    {
+      "check": "Nom accessible des contrôles (candidats DOM)",
+      "status": "PASS-WITH-RESERVATION",
+      "detail": "8 contrôle(s) DOM inspecté(s) ; nom accessible calculé non vérifié",
+      "route": "SAVOIR/CONTEXT"
+    },
+    {
+      "check": "Taille des cibles (WCAG 2.2, 2.5.8)",
+      "status": "PASS",
+      "detail": "toutes les cibles hors texte courant satisfont la taille ou l'espacement ; 1 petite(s) cible(s) admise(s) par l'espacement",
+      "route": "SAVOIR/CONTEXT"
+    },
+    {
+      "check": "Structure du document (alt, lang, titre)",
+      "status": "PASS",
+      "detail": "alt, lang et titre présents",
+      "route": "SAVOIR/CONTEXT"
+    },
+    {
+      "check": "Images chargées",
+      "status": "PASS",
+      "detail": "aucune image visible illisible",
+      "route": "SAVOIR/SOURCE ; DIRECTION/ASSET-ROUTE"
+    },
+    {
+      "check": "Parcours clavier : arrêts et indicateur de focus",
+      "status": "PASS",
+      "detail": "8 arrêt(s) à 1440 px ; 1440 px : page, fin=end, 8 candidat(s) ; 8 arrêt(s) à 390 px ; 390 px : page, fin=end, 8 candidat(s) ; style observé, visibilité du focus à vérifier ; contraste : contrôle suivant",
+      "route": "SAVOIR/CONTEXT ; SAVOIR/STATE"
+    },
+    {
+      "check": "Contraste de l’indicateur de focus",
+      "status": "PASS",
+      "detail": "16 arrêt(s) mesuré(s) ou à contour du navigateur sans défaut",
+      "route": "SAVOIR/STATE ; SAVOIR/CRAFT/CFT-05"
+    },
+    {
+      "check": "Mouvement réduit respecté",
+      "status": "PASS",
+      "detail": "aucune animation démarrée",
+      "route": "SAVOIR/CONTEXT"
+    },
+    {
+      "check": "Objet de preuve au premier écran (#cartouche)",
+      "status": "PASS",
+      "detail": "1440 px : intersection verticale 543.546875 px sur 543.546875, horizontale 500 px sur 500; 390 px : intersection verticale 565.546875 px sur 579.71875, horizontale 346 px sur 346 ; rectangle et CSS observés, pixels et occlusion non vérifiés",
+      "route": "DIRECTION/FIRST-OBJECT ; SAVOIR/CRAFT/CFT-04a"
+    }
+  ],
+  "releves": {
+    "h1_visibles": 1
+  },
+  "keyboard_coverage": {
+    "1440": {
+      "expected": [
+        {
+          "key": "control-0",
+          "id": "#email"
+        },
+        {
+          "key": "control-1",
+          "id": "#mdp"
+        },
+        {
+          "key": "control-2",
+          "id": "#voir"
+        },
+        {
+          "key": "control-3",
+          "id": "#oubli"
+        },
+        {
+          "key": "control-4",
+          "id": "#go"
+        },
+        {
+          "key": "control-5",
+          "id": "#cle"
+        },
+        {
+          "key": "control-6",
+          "id": "#sso"
+        },
+        {
+          "key": "control-7",
+          "id": "a"
+        }
+      ],
+      "excluded": [],
+      "scope": "page",
+      "reason": "end",
+      "tab_limit": 60,
+      "visited": [
+        "control-0",
+        "control-1",
+        "control-2",
+        "control-3",
+        "control-4",
+        "control-5",
+        "control-6",
+        "control-7"
+      ],
+      "unreached": [],
+      "unexpected": [],
+      "observed_stops": 8
+    },
+    "390": {
+      "expected": [
+        {
+          "key": "control-0",
+          "id": "#email"
+        },
+        {
+          "key": "control-1",
+          "id": "#mdp"
+        },
+        {
+          "key": "control-2",
+          "id": "#voir"
+        },
+        {
+          "key": "control-3",
+          "id": "#oubli"
+        },
+        {
+          "key": "control-4",
+          "id": "#go"
+        },
+        {
+          "key": "control-5",
+          "id": "#cle"
+        },
+        {
+          "key": "control-6",
+          "id": "#sso"
+        },
+        {
+          "key": "control-7",
+          "id": "a"
+        }
+      ],
+      "excluded": [],
+      "scope": "page",
+      "reason": "end",
+      "tab_limit": 60,
+      "visited": [
+        "control-0",
+        "control-1",
+        "control-2",
+        "control-3",
+        "control-4",
+        "control-5",
+        "control-6",
+        "control-7"
+      ],
+      "unreached": [],
+      "unexpected": [],
+      "observed_stops": 8
+    }
+  },
+  "contrast_coverage": {
+    "1440": {
+      "method": "dom-text-bounded",
+      "candidates": 82,
+      "evaluated": 74,
+      "excluded": 0,
+      "unmeasured": [
+        {
+          "sel": "li",
+          "kind": "contenu ::before"
+        },
+        {
+          "sel": "li",
+          "kind": "contenu ::before"
+        },
+        {
+          "sel": "li",
+          "kind": "contenu ::before"
+        },
+        {
+          "sel": "li.demo",
+          "kind": "contenu ::before"
+        }
+      ]
+    },
+    "390": {
+      "method": "dom-text-bounded",
+      "candidates": 82,
+      "evaluated": 49,
+      "excluded": 25,
+      "unmeasured": [
+        {
+          "sel": "li",
+          "kind": "contenu ::before"
+        },
+        {
+          "sel": "li",
+          "kind": "contenu ::before"
+        },
+        {
+          "sel": "li",
+          "kind": "contenu ::before"
+        },
+        {
+          "sel": "li.demo",
+          "kind": "contenu ::before"
+        }
+      ]
+    }
+  },
+  "proof_observations": {
+    "1440": {
+      "found": true,
+      "method": "css-rectangle-bounded",
+      "w": 500,
+      "h": 543.546875,
+      "hidden": false,
+      "opacity": 1,
+      "intersectionWidth": 500,
+      "visible": 543.546875,
+      "limits": []
+    },
+    "390": {
+      "found": true,
+      "method": "css-rectangle-bounded",
+      "w": 346,
+      "h": 579.71875,
+      "hidden": false,
+      "opacity": 1,
+      "intersectionWidth": 346,
+      "visible": 565.546875,
+      "limits": []
+    }
+  }
+}
