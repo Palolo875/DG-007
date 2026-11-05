@@ -60,7 +60,7 @@ Gardées pour esquisse : A, B, C. Modale M esquissée comme référence. Directi
 ```text
 DIRECTION — Cartouche
 VISION — Se connecter, c'est signer le plan : la page est la feuille de fabrication d'une carte, et le formulaire en est le cartouche ; l'ingénieur reconnaît son monde avant de lire un mot.
-REGISTRE — base : dessin technique au trait (plan, cadre à repères ISO 5457) ; modificateur : annotation de revue (rouge, nuage). Marqueurs visibles : les repères de zones 1–8 / A–F ; le nuage rouge autour du boîtier U3.
+REGISTRE — « dessin technique normé » : base représentation (dessin technique au trait : cotes, couronnes, pas de 2,54 mm) ; modificateur voix et comportement (normative : le document qui fait foi, avec cadre ISO 5457, cartouche ISO 7200, lettrage de la lignée DIN ; la page s'adresse à l'ingénieur comme un plan à signer). Marqueurs visibles : les repères de zones 1–8 / A–F ; le nuage de revue rouge autour du boîtier U3. [Corrigé après le run, voir « Registre : contrôle a posteriori ».]
 NIVEAU — qu'un électronicien la prenne pour un vrai plan de fabrication, sans faute de convention.
 ASSET — plan de carte dessiné en SVG dans la page ; aucune image.
 COMPOSANT — libellés au-dessus des champs ; « Mot de passe oublié ? » à droite du libellé, mais après le champ dans l'ordre de tabulation ; « Afficher » dans le champ ; bouton principal plein ; clé d'accès et SSO en contour ; autocomplete username/current-password.
@@ -120,10 +120,29 @@ MOBILE — le plan passe en tête, en bande, et le cartouche devient l'écran ; 
 ## Trace légère (six lignes)
 
 1. **RUN** `DIRECTION` avec protection de niveau (authentification) ; risque de convergence, puis sécurité et récupération ; preuves : planche, parcours, états, atelier.
-2. **Direction déclarée** : *Cartouche*, « dessin technique × annotation de revue ». Mouvement : le nuage se trace une fois, et l'e-mail s'inscrit dans « Approuvé par ». Thèse : la promesse (des révisions revues et signées) passe par un objet de preuve (un plan de carte annoté, à signer) et un geste (signer = se connecter).
+2. **Direction déclarée** : *Cartouche*, « dessin technique normé » (représentation × voix). Mouvement : le nuage se trace une fois, et l'e-mail s'inscrit dans « Approuvé par ». Thèse : la promesse (des révisions revues et signées) passe par un objet de preuve (un plan de carte annoté, à signer) et un geste (signer = se connecter).
 3. **Modal, trame et parti** : modale = écran partagé à dégradé (p ≈ 0,40) ; esquissées : Cartouche 0,10, Sérigraphie 0,08, Couches 0,06 ; planche → Cartouche ; trame gardée dans le formulaire, rompue autour ; aucun marqueur relevé.
 4. **Plafond atteint** : tout en code natif, au plafond (plan SVG, typographie Barlow OFL). Pas d'image, aucune n'étant nécessaire. Contenu d'exemple : Annular, ANN-2041, les révisions et le compte de démonstration.
 5. **Défaut dominant restant** : sur grand écran (1920 px), le cartouche de 500 px paraît petit face au plan ; une échelle du cartouche liée à la hauteur serait à essayer.
 6. **Prochaine preuve** : un test avec un lecteur d'écran réel ; la branche au vrai serveur d'authentification (WebAuthn, SSO, blocage) ; la version anglaise ; l'avis d'ingénieurs électroniciens sur la justesse du plan.
 
 **Statut** : proposition `EXPLORATORY` ; ni acceptation ni `RUN_CARD`.
+
+## Registre : contrôle a posteriori (fait après la question « Et le registre ? »)
+
+**Écart de procédure reconnu.** `SAVOIR/STYLE` n'a pas été lu pendant le run. Le registre déclaré (« dessin technique au trait × annotation de revue ») prenait sa base et son modificateur dans **la même dimension** (représentation), ce qui contrevient à la règle des deux dimensions ; l'annotation rouge est un marqueur, pas une dimension. **Le registre n'a pas piloté le build** : ce sont la planche et l'atelier qui ont tranché. La ligne `REGISTRE` est corrigée ; le rendu n'a pas changé.
+
+**Divergence, vérifiée paire par paire** :
+
+| Direction | Composition | Matière et rendu | Représentation | Époque et culture | Voix |
+|---|---|---|---|---|---|
+| M · écran partagé | split 50/50 | dégradé lumineux | aplat et lueur | SaaS 2020 | neutre, rassurante |
+| A · Cartouche | feuille cadrée, cartouche en coin | papier et encre | dessin technique | normes d'ingénierie | normative |
+| B · Sérigraphie | carte plein cadre | vernis, cuivre, sérigraphie | surface fabriquée | atelier électronique | technique |
+| C · Couches | empilement décalé | couches colorées | objet axonométrique | — | didactique |
+
+- Chaque esquisse diffère de la modale sur au moins trois dimensions.
+- Entre elles : A/B, quatre dimensions ; A/C, quatre.
+- **B/C, la paire la plus proche** : même famille de matière (les couches d'une carte) ; elles diffèrent par la composition, la représentation et la voix. La règle est tenue.
+
+**Test de style** (couleurs et logo masqués, `captures/test-style-masque.png`) : en gris, sans le rouge et sans le logo, le plan, le cadre à repères et le cartouche gardent toute la différence. **Le registre est porté par la structure, non par la couleur** : le test est tenu.

@@ -64,7 +64,7 @@ Marqueur proche nommé : « grotesque condensée en titre » (signal de converge
 ```text
 DIRECTION — Mar Largo
 VISION — Le festival s'écrit dans le sol de Lisbonne : le nom est posé en calçada, et la vague du Rossio monte du bas de l'écran ; on regarde la ville par terre, là où son architecture la plus partagée se fait à la main.
-REGISTRE — base : composition en aplat vu de dessus (un sol, un plan) ; modificateur : matière vernaculaire (calcaire et basalte posés). Marqueurs visibles : les lettres posées comme un ouvrage à part, avec leur joint ; les rangs de pierres qui suivent la vague.
+REGISTRE — « pavé vu de dessus » : base matière et rendu (pierre posée à la main, calcaire et basalte, joints de sable) ; modificateur composition (aplat vu de dessus, sans perspective : le sol est le plan de la page). Marqueurs visibles : les lettres posées comme un ouvrage à part, avec leur joint ; les rangs de pierres qui suivent la vague. [Corrigé après le run, voir « Registre : contrôle a posteriori ».]
 NIVEAU — qu'on la prenne pour le site d'une biennale signée par un studio d'identité ; à 2×, les pierres se lisent comme des pierres, pas comme des pixels.
 ASSET — calçada générée en code (SVG, graine fixe) : cubes irréguliers, joints de sable, pierres coupées au contour ; aucune photo.
 COMPOSANT — nav : logo, menu, PT/EN, « Bilhetes » ; boutons à angle vif (pierre taillée), contour de 2 px, inversion nette au survol ; focus visible de 3 px.
@@ -127,10 +127,29 @@ MOBILE — à 390 px, le nom se pose sur deux rangs, ESTU / ÁRIO, en cubes plus
 ## Trace légère (six lignes)
 
 1. **RUN** `DIRECTION` : identité de premier contact d'Estuário ; risque de convergence ; preuves : planche, parcours, atelier ; arrêt : tenue à 1440 et 390.
-2. **Direction déclarée** : *Mar Largo*, « éditorial vu de dessus × matière vernaculaire ». Mouvement : le nom se pave rang par rang. Thèse : la promesse (un festival de la ville bâtie) passe par un objet de preuve (le nom posé en calçada) et un geste (le passe, sur le lancil).
+2. **Direction déclarée** : *Mar Largo*, « pavé vu de dessus » (matière × composition). Mouvement : le nom se pave rang par rang. Thèse : la promesse (un festival de la ville bâtie) passe par un objet de preuve (le nom posé en calçada) et un geste (le passe, sur le lancil).
 3. **Modal, trame et parti** : modale = photo + grotesque (p ≈ 0,40) ; esquissées : Gaiola 0,10, Mar Largo 0,08, Placa 0,06 ; planche → Mar Largo, seule à battre la modale ; trame héro rompue (le titre est l'image, les infos sur un objet du sol) ; aucun marqueur relevé ; grotesque semi-condensée gardée par comparaison de voix.
 4. **Plafond atteint** : structure, typographie, couleur et matière au plafond, en code natif. Pas de photographie : essai Commons, puis HTTP 429 ; essai Openverse, puis HTTP 504 ; non nécessaire à la thèse. Contenu entièrement d'exemple : nom, dates, thème, 38 lieux, liens.
 5. **Défaut dominant restant** : dans les lettres, les cubes suivent des rangs horizontaux et non le trait, alors qu'un calceteiro orienterait les pierres le long des fûts et des courbes.
 6. **Prochaine preuve** : un test avec un vrai contenu et un vrai calendrier ; la performance du pavage sur un téléphone d'entrée de gamme ; un regard humain sur le niveau.
 
 **Statut** : proposition `EXPLORATORY`. Elle s'appuie sur une ancre observée de lieu (le Mar Largo, la plaque) et sur des références de sites ; ni acceptation ni `RUN_CARD`, puisque le run n'est pas persistant ni soumis à acceptation.
+
+## Registre : contrôle a posteriori (fait après la question « Et le registre ? »)
+
+**Écart de procédure reconnu.** `SAVOIR/STYLE` n'a pas été lu pendant le run. Le registre a été composé de mémoire, et son modificateur mélangeait deux dimensions (matière, et culture : « vernaculaire » est rangé sous *époque et culture*). La trace le nommait de deux façons différentes (« aplat vu de dessus » dans la déclaration, « éditorial vu de dessus » dans la trace légère). **Le registre n'a donc pas piloté le build** : ce sont la planche et les ateliers qui ont tranché. La ligne `REGISTRE` ci-dessus est corrigée ; le rendu n'a pas changé.
+
+**Divergence, vérifiée paire par paire** (dimensions de `SAVOIR/STYLE` ; une paire doit différer sur au moins deux d'entre elles) :
+
+| Direction | Composition | Matière et rendu | Représentation | Époque et culture | Voix |
+|---|---|---|---|---|---|
+| M · photo + grotesque | centrée sur image | photographie voilée | photo | neutre, internationale | neutre |
+| A · Gaiola | grille de structure | trait | dessin d'élévation | pombaline (XVIIIᵉ) | technique |
+| B · Mar Largo | aplat vu de dessus | pierre posée | mosaïque | vernaculaire lisboète | monumentale |
+| C · Placa | objet centré sur mur | pierre gravée | inscription | classique d'inscription | commémorative |
+
+- Chaque esquisse diffère de la modale sur au moins trois dimensions.
+- Entre elles : A/B, quatre dimensions ; A/C, quatre.
+- **B/C, la paire la plus proche** : même matière (la pierre) et même culture lisboète ; elles diffèrent par la composition, la représentation et la voix. La règle est tenue, mais de justesse.
+
+**Test de style** (`SAVOIR/STYLE`, « masque les couleurs de marque, l'image et le logo ») : sans la calçada (état sans script, `captures/etat-sans-js-1440.png`), il reste une grande grotesque sur un bandeau gris, soit un héro générique. **Le registre dépend entièrement du médium masqué.** La skill l'admet parce que ce médium porte la relation déclarée (le nom écrit dans le sol) et qu'il existe un repli lisible. Mais ce repli n'a plus de direction. *Prochaine action possible* : un pavé statique pré-rendu (SVG en image de fond) pour l'état sans script.
